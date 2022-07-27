@@ -1,0 +1,75 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Lambda.ipynb",
+      "provenance": []
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "_bwsBG1bSEnw",
+        "outputId": "c60b8ba4-0bec-44d9-e7f4-654439f5e01d"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "value of the function is : 50\n",
+            "value of the function is : 90\n"
+          ]
+        }
+      ],
+      "source": [
+        "#Defining a function\n",
+        "lambda_ = lambda argument1, argument2: argument1+ argument2;\n",
+        "#calling the function and passing values\n",
+        "print(\"value of the function is :\",lambda_(20,30))\n",
+        "print(\"value of the function is :\",lambda_(40,50))"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#Defining a function\n",
+        "lambda_ = lambda argument1, argument2: argument1- argument2;\n",
+        "#calling the function and passing values\n",
+        "print(\"value of the function is :\",lambda_(800,30))\n",
+        "print(\"value of the function is :\",lambda_(90,50))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "91aBshuoTcBk",
+        "outputId": "ec7930d1-277c-42f6-9585-0ed30c8cafaa"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "value of the function is : 770\n",
+            "value of the function is : 40\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
